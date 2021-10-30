@@ -18,7 +18,7 @@ app.use('/events', eventsRoute);
 
 // ROTAS
 app.get('/', (req, res) => {
-    res.send('Estamos na home');
+    res.send('Home');
 })
 
 
